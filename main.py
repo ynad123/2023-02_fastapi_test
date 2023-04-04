@@ -7,7 +7,6 @@ persons = [{"last_name": "Mouse","first_name": "Micky","id": 1},
            {"last_name": "Mouse","first_name": "Minni","id": 2},
            {"last_name": "Donald","first_name": "Duck","id": 3}]
 
-
 @app.get("/persons")
 async def root_persons():
     return persons
